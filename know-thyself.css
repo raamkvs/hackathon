@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #222e50;
+  color: #fff;
+  padding: 1em 2em;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 2em;
+}
+section {
+  margin-bottom: 2em;
+}
+#scrapeStatus {
+  background: #e9f5ff;
+  color: #1a3a5e;
+  padding: 1em;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+#journeyMap {
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 1em;
+  min-height: 300px;
+  font-size: 1em;
+  overflow-x: auto;
+}

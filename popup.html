@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrape History</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 250px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+    #output {
+      font-size: 12px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Scrape Chrome History</h1>
+  <button id="scrapeButton">Scrape History</button>
+  <pre id="output">Your browsing history will appear here...</pre>
+  <a href="dashboard.html" target="_blank" id="dashboardLink">Open Dashboard</a>
+
+  <script src="popup.js"></script>
+</body>
+</html>

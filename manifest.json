@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "History Scraper",
+  "version": "1.0",
+  "description": "Scrape Chrome History",
+  "permissions": [
+    "history",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "dashboard.html",
+        "dashboard.css",
+        "know-thyself.html",
+        "know-thyself.css",
+        "know-thyself.js",
+        "lib/mermaid.min.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
